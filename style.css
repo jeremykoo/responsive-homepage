@@ -17,11 +17,6 @@ h2 {
   box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-.footer-photo {
-  width: 500px;
-  height: 300px;
-}
-
 /* header section */
 header {
   display: flex;
@@ -70,6 +65,7 @@ header {
 /* main section */
 main {
   padding: 30px 40px;
+  margin-bottom: 30px;
 }
 
 main > h2 {
@@ -128,4 +124,48 @@ main > h2 {
 .project p {
   padding: 20px 0;
   color: gray;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #0891B2;
+  padding: 60px 40px;
+  display: flex;
+  color: white;
+}
+
+.footer-photo {
+  width: 350px;
+  height: auto;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact .icons {
+  display: flex;
+  color: black;
+  font-size: 24px;
+  gap: 10px;
+}
+
+.contact .info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact > .info > img {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.svg {
+  fill: white;
 }
