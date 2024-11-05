@@ -129,7 +129,11 @@
         <i class="devicon-twitter-original"></i>
       </div>
     </div>
-    <img class="footer-photo" src="footer-photo.jpg" alt="John Smith">
+    <picture>
+      <source media="(max-width: 799px)" srcset="footer-photo-slim.jpg">
+      <source media="(min-width: 800px)" srcset="footer-photo-wide.jpg">
+      <img class="footer-photo" src="footer-photo-wide.jpg" alt="John Smith">
+    </picture>
   </footer>
 </body>
 </html>
